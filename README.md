@@ -1,12 +1,14 @@
 # Codenza
 
+![Codenza Banner](https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1600&q=80)
+
 Codenza is a premium software engineering company website built with Next.js, React, TypeScript, and Tailwind CSS. The project showcases Codenza's brand, services, portfolio, case studies, blog content, and conversion-focused pages designed to build trust and generate qualified leads.
 
 ## Overview
 
 This website presents Codenza as a modern, credible, and high-performing technology partner for startups, SMBs, enterprises, and mission-driven organizations. It combines a polished visual language, strong messaging, and a clear user journey to communicate expertise, reliability, and innovation.
 
-## Features
+## Highlights
 
 - Premium, modern marketing website design
 - Responsive layouts for desktop, tablet, and mobile
@@ -25,24 +27,10 @@ This website presents Codenza as a modern, credible, and high-performing technol
 - Framer Motion
 - Lucide Icons
 
-## Project Structure
+## Live Demo
 
-```text
-app/
-  about/
-  blog/
-  careers/
-  case-studies/
-  components/
-  contact/
-  industries/
-  portfolio/
-  privacy/
-  services/
-  globals.css
-  layout.tsx
-  page.tsx
-```
+- Production: https://codenza.vercel.app
+- GitHub: https://github.com/Blqckhawk/Codenza
 
 ## Getting Started
 
