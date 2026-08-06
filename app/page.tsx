@@ -37,9 +37,9 @@ export default function Home() {
                 We design and build secure, scalable, AI-powered software solutions that help businesses innovate, grow, and succeed.
               </motion.p>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                <Link href="/contact" className="rounded-full bg-blue-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-slate-900">
+                <a href="https://cal.com/yourname/consultation" target="_blank" rel="noreferrer" className="rounded-full bg-blue-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-slate-900">
                   Book free consultation
-                </Link>
+                </a>
                 <Link href="/portfolio" className="rounded-full border border-slate-300 px-6 py-3 text-center font-semibold text-slate-700 transition hover:border-blue-600 hover:text-blue-600">
                   View our work
                 </Link>
