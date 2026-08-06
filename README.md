@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Codenza
+
+Codenza is a premium software engineering company website built with Next.js, React, TypeScript, and Tailwind CSS. The project showcases Codenza's brand, services, portfolio, case studies, blog content, and conversion-focused pages designed to build trust and generate qualified leads.
+
+## Overview
+
+This website presents Codenza as a modern, credible, and high-performing technology partner for startups, SMBs, enterprises, and mission-driven organizations. It combines a polished visual language, strong messaging, and a clear user journey to communicate expertise, reliability, and innovation.
+
+## Features
+
+- Premium, modern marketing website design
+- Responsive layouts for desktop, tablet, and mobile
+- Dedicated pages for About, Services, Industries, Portfolio, Case Studies, Blog, Careers, Contact, and Privacy
+- Conversion-focused sections including testimonials, pricing, FAQ, and consultation CTAs
+- Dark mode support
+- Smooth animations and motion-enhanced UI
+- SEO-friendly structure and metadata foundation
+
+## Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
+
+## Project Structure
+
+```text
+app/
+  about/
+  blog/
+  careers/
+  case-studies/
+  components/
+  contact/
+  industries/
+  portfolio/
+  privacy/
+  services/
+  globals.css
+  layout.tsx
+  page.tsx
+```
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open your browser at
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build
 
-## Learn More
+To create a production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is ready to be deployed to platforms such as Vercel, Netlify, or any Node.js-compatible hosting environment.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for demonstration and portfolio purposes.
