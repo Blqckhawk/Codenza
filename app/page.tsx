@@ -15,9 +15,9 @@ const services = [
 ];
 
 const stats = [
-  { value: "50+", label: "Products launched" },
-  { value: "99.9%", label: "Reliability target" },
-  { value: "24/7", label: "Support readiness" },
+  { value: "Founder-Led", label: "Direct access to your engineering team" },
+  { value: "Full-Stack", label: "Design, build, and deploy under one roof" },
+  { value: "Fast Turnaround", label: "Structured delivery, clear updates" },
 ];
 
 export default function Home() {
@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="mt-8 grid gap-6">
                   {stats.map((stat) => (
                     <div key={stat.label} className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
-                      <p className="text-3xl font-semibold text-white">{stat.value}</p>
+                      <p className="text-xl font-semibold text-white">{stat.value}</p>
                       <p className="mt-1 text-sm text-slate-400">{stat.label}</p>
                     </div>
                   ))}
@@ -90,15 +90,15 @@ export default function Home() {
 
         <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
           <SectionHeading
-            eyebrow="Featured work"
-            title="Flagship products built for real-world impact"
-            description="From AI-native internal tools to customer-facing platforms, our work closes the gap between ambition and delivery."
+            eyebrow="What we're building"
+            title="Our current focus, built in the open"
+            description="Codenza is a young studio — here's what we're actively building right now, not a list of finished case studies."
           />
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             {[
-              ["Codenza ClientHub", "AI-powered client and project management"],
-              ["Oakmont Homes", "Modern real estate platform"],
-              ["Codenza Invoice", "Smart invoice and billing experience"],
+              ["Codenza Sites", "Professional website packages for churches, schools, clinics, law firms, and real estate agencies"],
+              ["Codenza Booking", "Appointment and client management for service businesses — in development"],
+              ["Codenza FieldOps", "Job and invoice management for artisans and technicians — in development"],
             ].map(([name, description]) => (
               <div key={name} className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
                 <div className="h-40 bg-gradient-to-br from-blue-600 via-slate-900 to-emerald-500" />
@@ -112,22 +112,17 @@ export default function Home() {
         </section>
 
         <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-          <SectionHeading
-            eyebrow="Testimonials"
-            title="Trusted by founders and growth-focused teams"
-            description="Our clients choose us for clarity, speed, and engineering that feels effortless."
-          />
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            {[
-              ["“Codenza brought clarity and pace to our roadmap. The product arrived better than we imagined.”", "— Amara, Founder"],
-              ["“Their team understood our business goals immediately and translated them into a high-quality product.”", "— Daniel, COO"],
-              ["“From discovery to launch, every step felt strategic and calm.”", "— Nina, Operations Director"],
-            ].map(([quote, author]) => (
-              <div key={quote} className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-                <p className="text-lg leading-8 text-slate-700">{quote}</p>
-                <p className="mt-6 font-semibold text-slate-900">{author}</p>
-              </div>
-            ))}
+          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-12 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-600">Early days</p>
+            <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+              We're onboarding our first clients now.
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-slate-600">
+              Be one of them — reach out and let's talk about what you're building.
+            </p>
+            <Link href="/contact" className="mt-8 inline-flex rounded-full bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-slate-900">
+              Get in touch
+            </Link>
           </div>
         </section>
 
@@ -157,9 +152,9 @@ export default function Home() {
             <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-400">Book a consultation</p>
-                <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Let’s shape the software experience your business deserves.</h2>
+                <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Let's shape the software experience your business deserves.</h2>
                 <p className="mt-6 text-lg leading-8 text-slate-400">
-                  Tell us about your goals and we’ll help you turn them into a thoughtful product strategy and launch plan.
+                  Tell us about your goals and we'll help you turn them into a thoughtful product strategy and launch plan.
                 </p>
               </div>
               <div className="rounded-3xl border border-white/10 bg-white/10 p-8 backdrop-blur-xl">
