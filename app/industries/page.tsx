@@ -29,7 +29,7 @@ export default function IndustriesPage() {
           />
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {industries.map((industry) => (
-              <div key={industry} className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+             <div key={industry} className="rounded-3xl border border-border bg-surface p-8 shadow-sm">
                <h3 className="text-xl font-semibold text-foreground">{industry}</h3>
               </div>
             ))}
