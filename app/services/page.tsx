@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen bg-white text-slate-900">
+    <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       <main>
         <section className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">

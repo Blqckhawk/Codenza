@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { ThemeToggle } from "./theme-toggle";
+import { RegionToggle } from "./region-toggle";
 
 const navItems = [
   { href: "/about", label: "About" },
@@ -39,6 +40,7 @@ export function Navigation() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
+          <RegionToggle />
           <ThemeToggle />
           <Link
             href="/contact"
@@ -65,7 +67,8 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-            <div className="pt-2">
+           <div className="flex gap-2 pt-2">
+              <RegionToggle />
               <ThemeToggle />
             </div>
             <Link href="/contact" className="font-semibold text-blue-600" onClick={() => setOpen(false)}>

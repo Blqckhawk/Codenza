@@ -4,34 +4,34 @@ import { SectionHeading } from "../components/section-heading";
 
 const projects = [
   {
-    name: "Codenza ClientHub",
-    description: "An AI-powered platform for client management, project tracking, and collaboration.",
+    name: "Codenza Sites",
+    description: "Professional website packages for churches, schools, clinics, law firms, and real estate agencies.",
   },
   {
-    name: "Oakmont Homes",
-    description: "A premium real estate experience with property discovery and lead management.",
+    name: "Codenza Booking",
+    description: "Appointment and client management for service-based businesses — currently in development.",
   },
   {
-    name: "Codenza Invoice",
-    description: "An intelligent billing platform with smart automation and secure payments.",
+    name: "Codenza FieldOps",
+    description: "Job and invoice management for artisans and technicians — currently in development.",
   },
 ];
 
 export const metadata = {
   title: "Portfolio | Codenza",
-  description: "Explore flagship software products built by Codenza for modern businesses.",
+  description: "See what Codenza is currently building for real clients and industries.",
 };
 
 export default function PortfolioPage() {
   return (
-    <div className="min-h-screen bg-white text-slate-900">
+    <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       <main>
         <section className="mx-auto max-w-7xl px-6 py-24 lg:px-8 lg:py-32">
           <SectionHeading
             eyebrow="Portfolio"
-            title="Premium digital products, thoughtfully engineered"
-            description="Each engagement blends strategy, product thinking, and modern engineering to deliver strong business outcomes."
+            title="What we're building right now"
+            description="Codenza is a young studio — here's our current focus, built in the open rather than dressed up as finished case studies."
           />
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             {projects.map((project) => (

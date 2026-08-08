@@ -33,10 +33,17 @@ export function Footer() {
           <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Contact</h3>
           <ul className="mt-4 space-y-3 text-sm">
             <li>hello@codenza.com</li>
-            <li>+1 (800) 555-0198</li>
-            <li>Remote-first • Global Delivery</li>
+            <li>
+              <a href="https://wa.me/2348072257930" target="_blank" rel="noopener noreferrer" className="transition hover:text-white">
+                Chat on WhatsApp
+              </a>
+            </li>
+            <li>Lagos, Nigeria • Remote-friendly worldwide</li>
           </ul>
         </div>
+      </div>
+       <div className="border-t border-white/10 px-6 py-6 text-center text-xs text-slate-500">
+        Designed & Developed by Nkoe Iniobong Francis
       </div>
     </footer>
   );
