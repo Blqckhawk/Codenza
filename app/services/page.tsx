@@ -27,9 +27,9 @@ export default function ServicesPage() {
           />
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             {services.map((service) => (
-              <div key={service.title} className="rounded-3xl border border-slate-200 bg-slate-50 p-8 shadow-sm">
-                <h3 className="text-xl font-semibold text-slate-900">{service.title}</h3>
-                <p className="mt-3 text-lg leading-8 text-slate-600">{service.description}</p>
+              <div key={service.title} className="rounded-3xl border border-border bg-surface p-8 shadow-sm">
+                <h3 className="text-xl font-semibold text-foreground">{service.title}</h3>
+                <p className="mt-3 text-lg leading-8 text-muted">{service.description}</p>
               </div>
             ))}
           </div>
